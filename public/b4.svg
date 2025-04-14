@@ -1,0 +1,22 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f0f9e8" />
+  
+  <!-- Tech device outlines -->
+  <rect x="150" y="100" width="300" height="200" rx="8" stroke="#3a644a" stroke-width="4" fill="#f8f8f0" />
+  <rect x="170" y="120" width="260" height="140" rx="4" stroke="#5c8d62" stroke-width="2" fill="#f8f8f0" />
+  
+  <!-- Code symbols -->
+  <text x="200" y="170" font-family="monospace" font-size="16" fill="#5c8d62">&lt;div&gt;</text>
+  <text x="220" y="190" font-family="monospace" font-size="16" fill="#6ea95f">  &lt;h1&gt;Hello&lt;/h1&gt;</text>
+  <text x="220" y="210" font-family="monospace" font-size="16" fill="#77a668">  &lt;p&gt;World&lt;/p&gt;</text>
+  <text x="200" y="230" font-family="monospace" font-size="16" fill="#5c8d62">&lt;/div&gt;</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="40" fill="#a0c297" fill-opacity="0.3" />
+  <circle cx="500" cy="300" r="50" fill="#8db580" fill-opacity="0.3" />
+  
+  <!-- Abstract tech pattern -->
+  <path d="M50 350C70 330 90 340 110 320C130 300 150 310 170 290" stroke="#6ea95f" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M450 50C470 70 490 60 510 80C530 100 550 90 570 110" stroke="#6ea95f" stroke-width="2" stroke-dasharray="4 4" />
+</svg>

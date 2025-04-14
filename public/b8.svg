@@ -1,0 +1,121 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient sky background -->
+  <rect width="600" height="400" fill="url(#sky_gradient)" />
+  
+  <!-- Ghibli landscape - rolling hills -->
+  <path d="M0 250C50 230 100 240 150 220C200 200 250 220 300 200C350 180 400 200 450 180C500 160 550 180 600 160V400H0V250Z" fill="#8db580" fill-opacity="0.4" />
+  <path d="M0 300C60 280 120 290 180 270C240 250 300 270 360 250C420 230 480 250 540 230C600 210 600 230 600 230V400H0V300Z" fill="#a0c297" fill-opacity="0.5" />
+  <path d="M0 350C70 340 140 350 210 340C280 330 350 350 420 340C490 330 560 350 600 340V400H0V350Z" fill="#b7d4aa" fill-opacity="0.6" />
+  
+  <!-- Stairs/path of improvement winding upward -->
+  <path d="M150 350L190 320L230 330L270 300L310 310L350 280L390 290L430 260L470 270L510 240" stroke="#5c8d62" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Small Ghibli character climbing the path -->
+  <g transform="translate(230, 330) scale(0.8)">
+    <!-- Character body -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#f0f9e8" stroke="#3a644a" stroke-width="1.5" />
+    <circle cx="-5" cy="-5" r="2" fill="#3a644a" />
+    <circle cx="5" cy="-5" r="2" fill="#3a644a" />
+    <path d="M-4 5C-2 8 2 8 4 5" stroke="#3a644a" stroke-width="1" />
+    
+    <!-- Character arms reaching upward -->
+    <path d="M-12 -5C-15 -10 -15 -15 -12 -20" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M12 -5C15 -10 15 -15 12 -20" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+  
+  <!-- Character further along the path -->
+  <g transform="translate(350, 280) scale(0.9)">
+    <!-- Character body -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#f0f9e8" stroke="#3a644a" stroke-width="1.5" />
+    <circle cx="-5" cy="-5" r="2" fill="#3a644a" />
+    <circle cx="5" cy="-5" r="2" fill="#3a644a" />
+    <path d="M-4 5C-2 8 2 8 4 5" stroke="#3a644a" stroke-width="1" />
+    
+    <!-- Character arms reaching upward -->
+    <path d="M-12 -5C-15 -10 -15 -15 -12 -20" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M12 -5C15 -10 15 -15 12 -20" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+  
+  <!-- Character at the top of the path -->
+  <g transform="translate(470, 230)">
+    <!-- Character body -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#f0f9e8" stroke="#3a644a" stroke-width="1.5" />
+    <circle cx="-5" cy="-5" r="2" fill="#3a644a" />
+    <circle cx="5" cy="-5" r="2" fill="#3a644a" />
+    <path d="M-4 5C-2 8 2 8 4 5" stroke="#3a644a" stroke-width="1" />
+    
+    <!-- Character arms celebrating -->
+    <path d="M-12 -5C-18 -15 -15 -20 -10 -25" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M12 -5C18 -15 15 -20 10 -25" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+  
+  <!-- Growth elements: magical plants growing from small to large -->
+  <g transform="translate(180, 280)">
+    <path d="M0 0V-15" stroke="#77a668" stroke-width="2" />
+    <path d="M0 -15C-5 -20 -10 -20 -10 -25C-10 -30 -5 -30 0 -25C5 -30 10 -30 10 -25C10 -20 5 -20 0 -15Z" fill="#8db580" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(300, 270)">
+    <path d="M0 0V-25" stroke="#77a668" stroke-width="2" />
+    <path d="M0 -25C-10 -35 -20 -35 -20 -45C-20 -55 -10 -55 0 -45C10 -55 20 -55 20 -45C20 -35 10 -35 0 -25Z" fill="#8db580" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(420, 250)">
+    <path d="M0 0V-35" stroke="#77a668" stroke-width="2" />
+    <path d="M0 -35C-15 -50 -30 -50 -30 -65C-30 -80 -15 -80 0 -65C15 -80 30 -80 30 -65C30 -50 15 -50 0 -35Z" fill="#8db580" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <!-- Magical light/knowledge orbs -->
+  <circle cx="200" cy="300" r="8" fill="#f8f8d9" opacity="0.6" filter="drop-shadow(0 0 4px rgba(248, 248, 217, 0.5))" />
+  <circle cx="320" cy="250" r="10" fill="#f8f8d9" opacity="0.7" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.6))" />
+  <circle cx="440" cy="200" r="12" fill="#f8f8d9" opacity="0.8" filter="drop-shadow(0 0 6px rgba(248, 248, 217, 0.7))" />
+  
+  <!-- Floating dust particles (Ghibli style) -->
+  <circle cx="150" cy="200" r="1" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="170" cy="220" r="1.5" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="190" cy="190" r="1" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="270" cy="180" r="1.5" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="290" cy="200" r="1" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="310" cy="170" r="1.5" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="390" cy="160" r="1" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="410" cy="180" r="1.5" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="430" cy="150" r="1" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="510" cy="140" r="1.5" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="530" cy="160" r="1" fill="#f8f8d9" opacity="0.8" />
+  <circle cx="550" cy="130" r="1.5" fill="#f8f8d9" opacity="0.8" />
+  
+  <!-- Soft clouds in Ghibli style -->
+  <g transform="translate(100, 100)" opacity="0.9">
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="white" opacity="0.7" />
+    <ellipse cx="25" cy="-5" rx="25" ry="15" fill="white" opacity="0.8" />
+    <ellipse cx="-20" cy="5" rx="20" ry="13" fill="white" opacity="0.8" />
+  </g>
+  
+  <g transform="translate(400, 80)" opacity="0.9">
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="white" opacity="0.7" />
+    <ellipse cx="30" cy="-5" rx="30" ry="20" fill="white" opacity="0.8" />
+    <ellipse cx="-25" cy="5" rx="25" ry="15" fill="white" opacity="0.8" />
+  </g>
+  
+  <!-- Sun/moon with growth rays -->
+  <g transform="translate(500, 100)">
+    <circle cx="0" cy="0" r="30" fill="#f8edd2" filter="drop-shadow(0 0 10px rgba(248, 237, 210, 0.5))" />
+    <path d="M0 -40V-60" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M0 40V60" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M-40 0H-60" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M40 0H60" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M-28 -28L-42 -42" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M28 28L42 42" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M-28 28L-42 42" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    <path d="M28 -28L42 -42" stroke="#f8edd2" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+  </g>
+  
+  <!-- Gradients definitions -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="300" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8cee2" />
+      <stop offset="0.5" stop-color="#b9dcd8" />
+      <stop offset="1" stop-color="#dcedc2" />
+    </linearGradient>
+  </defs>
+</svg>

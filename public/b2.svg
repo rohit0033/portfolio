@@ -1,0 +1,71 @@
+<svg width="600" height="600" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient sky background -->
+  <rect width="600" height="400" fill="url(#sky_gradient)" />
+  
+  <!-- Sun and moon cycle -->
+  <circle cx="150" cy="100" r="40" fill="#f8edd2" filter="drop-shadow(0 0 10px rgba(248, 237, 210, 0.6))" />
+  <circle cx="450" cy="100" r="35" fill="#f0f9e8" filter="drop-shadow(0 0 15px rgba(240, 249, 232, 0.5))" />
+  
+  <!-- Stars around moon -->
+  <circle cx="420" cy="80" r="2" fill="white" />
+  <circle cx="480" cy="90" r="2" fill="white" />
+  <circle cx="450" cy="65" r="2" fill="white" />
+  <circle cx="470" cy="120" r="2" fill="white" />
+  <circle cx="435" cy="130" r="1.5" fill="white" />
+  
+  <!-- Clock face representing time zones -->
+  <circle cx="300" cy="200" r="70" fill="#f8f8f0" stroke="#5c8d62" stroke-width="4" />
+  <circle cx="300" cy="200" r="5" fill="#3a644a" />
+  
+  <!-- Clock hands -->
+  <line x1="300" y1="200" x2="300" y2="150" stroke="#3a644a" stroke-width="3" stroke-linecap="round" />
+  <line x1="300" y1="200" x2="340" y2="220" stroke="#3a644a" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Time zone arcs -->
+  <path d="M300 130C335 130 365 160 365 195" stroke="#8db580" stroke-width="4" stroke-linecap="round" />
+  <path d="M300 130C265 130 235 160 235 195" stroke="#a0c297" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- World with soft Ghibli-style landscape -->
+  <ellipse cx="300" cy="320" rx="220" ry="30" fill="#8db580" fill-opacity="0.6" />
+  
+  <!-- Little houses representing different time zones -->
+  <g transform="translate(165, 275) scale(0.7)">
+    <path d="M0 40H40V10L20 0L0 10V40Z" fill="#b7d4aa" stroke="#5c8d62" stroke-width="1.5" />
+    <rect x="15" y="25" width="10" height="15" fill="#f0f9e8" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(235, 270) scale(0.8)">
+    <path d="M0 40H40V10L20 0L0 10V40Z" fill="#a0c297" stroke="#5c8d62" stroke-width="1.5" />
+    <rect x="15" y="25" width="10" height="15" fill="#f0f9e8" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(320, 275) scale(0.75)">
+    <path d="M0 40H40V10L20 0L0 10V40Z" fill="#8db580" stroke="#5c8d62" stroke-width="1.5" />
+    <rect x="15" y="25" width="10" height="15" fill="#f0f9e8" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(400, 270) scale(0.85)">
+    <path d="M0 40H40V10L20 0L0 10V40Z" fill="#b7d4aa" stroke="#5c8d62" stroke-width="1.5" />
+    <rect x="15" y="25" width="10" height="15" fill="#f0f9e8" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <!-- Floating clouds in Ghibli style -->
+  <path d="M120 150C120 138.954 128.954 130 140 130C151.046 130 160 138.954 160 150C160 161.046 151.046 170 140 170C128.954 170 120 161.046 120 150Z" fill="white" fill-opacity="0.8" />
+  <path d="M140 140C140 128.954 148.954 120 160 120C171.046 120 180 128.954 180 140C180 151.046 171.046 160 160 160C148.954 160 140 151.046 140 140Z" fill="white" fill-opacity="0.9" />
+  
+  <path d="M420 160C420 148.954 428.954 140 440 140C451.046 140 460 148.954 460 160C460 171.046 451.046 180 440 180C428.954 180 420 171.046 420 160Z" fill="white" fill-opacity="0.7" />
+  <path d="M440 150C440 138.954 448.954 130 460 130C471.046 130 480 138.954 480 150C480 161.046 471.046 170 460 170C448.954 170 440 161.046 440 150Z" fill="white" fill-opacity="0.8" />
+  
+  <!-- Connection lines representing communication across time zones -->
+  <path d="M190 260C230 230 370 230 410 260" stroke="#6ea95f" stroke-width="2" stroke-dasharray="6 4" />
+  <path d="M190 270C230 300 370 300 410 270" stroke="#6ea95f" stroke-width="2" stroke-dasharray="6 4" />
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="300" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8cee2" />
+      <stop offset="0.5" stop-color="#b9dcd8" />
+      <stop offset="1" stop-color="#dcedc2" />
+    </linearGradient>
+  </defs>
+</svg>

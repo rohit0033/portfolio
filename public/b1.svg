@@ -1,0 +1,52 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <rect width="800" height="600" fill="url(#paint0_linear)" />
+  
+  <!-- Two people icons representing collaboration -->
+  <circle cx="300" cy="240" r="70" fill="#8db580" fill-opacity="0.7" />
+  <circle cx="500" cy="240" r="70" fill="#a0c297" fill-opacity="0.7" />
+  
+  <!-- Stylized heads -->
+  <circle cx="300" cy="180" r="40" fill="#f8f8f0" stroke="#5c8d62" stroke-width="3" />
+  <circle cx="500" cy="180" r="40" fill="#f8f8f0" stroke="#5c8d62" stroke-width="3" />
+  
+  <!-- Simple facial features -->
+  <circle cx="285" cy="170" r="5" fill="#3a644a" />
+  <circle cx="315" cy="170" r="5" fill="#3a644a" />
+  <path d="M285 195C290 205 310 205 315 195" stroke="#3a644a" stroke-width="3" stroke-linecap="round" />
+  
+  <circle cx="485" cy="170" r="5" fill="#3a644a" />
+  <circle cx="515" cy="170" r="5" fill="#3a644a" />
+  <path d="M485 195C490 205 510 205 515 195" stroke="#3a644a" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Connection lines representing communication -->
+  <path d="M340 180C360 160 440 160 460 180" stroke="#6ea95f" stroke-width="4" stroke-dasharray="8 8" />
+  <path d="M340 190C360 210 440 210 460 190" stroke="#6ea95f" stroke-width="4" stroke-dasharray="8 8" />
+  
+  <!-- Speech bubbles representing open communication -->
+  <path d="M230 120C230 100 245 85 265 85H335C355 85 370 100 370 120V140C370 160 355 175 335 175H265C245 175 230 160 230 140V120Z" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+  <path d="M430 120C430 100 445 85 465 85H535C555 85 570 100 570 120V140C570 160 555 175 535 175H465C445 175 430 160 430 140V120Z" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+  
+  <!-- Landscape elements at bottom -->
+  <path d="M0 400C100 350 200 380 300 350C400 320 500 380 600 350C700 320 800 350 800 350V600H0V400Z" fill="#8db580" fill-opacity="0.3" />
+  <path d="M0 450C100 420 200 440 300 420C400 400 500 440 600 420C700 400 800 420 800 420V600H0V450Z" fill="#a0c297" fill-opacity="0.4" />
+  <path d="M0 500C100 480 200 490 300 480C400 470 500 490 600 480C700 470 800 480 800 480V600H0V500Z" fill="#b7d4aa" fill-opacity="0.5" />
+  
+  <!-- Floating elements -->
+  <circle cx="200" cy="100" r="25" fill="#b7d4aa" fill-opacity="0.4" />
+  <circle cx="600" cy="150" r="20" fill="#8db580" fill-opacity="0.4" />
+  <circle cx="150" cy="300" r="30" fill="#a0c297" fill-opacity="0.4" />
+  <circle cx="650" cy="330" r="35" fill="#b7d4aa" fill-opacity="0.4" />
+  
+  <!-- Small icons representing collaboration tools -->
+  <rect x="370" y="280" width="60" height="60" rx="10" fill="#f8f8f0" stroke="#5c8d62" stroke-width="2" />
+  <path d="M385 305H415M385 315H405" stroke="#5c8d62" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="400" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8f8f0" />
+      <stop offset="1" stop-color="#f0f9e8" />
+    </linearGradient>
+  </defs>
+</svg>

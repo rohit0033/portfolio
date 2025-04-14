@@ -1,0 +1,124 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient sky background -->
+  <rect width="800" height="600" fill="url(#sky_gradient)" />
+  
+  <!-- Ghibli landscape - rolling hills -->
+  <path d="M0 400C100 350 200 380 300 350C400 320 500 380 600 350C700 320 800 350 800 350V600H0V400Z" fill="#8db580" fill-opacity="0.5" />
+  <path d="M0 450C100 420 200 440 300 420C400 400 500 440 600 420C700 400 800 420 800 420V600H0V450Z" fill="#a0c297" fill-opacity="0.6" />
+  <path d="M0 500C100 480 200 490 300 480C400 470 500 490 600 480C700 470 800 480 800 480V600H0V500Z" fill="#b7d4aa" fill-opacity="0.7" />
+  
+  <!-- Tree of technology - trunk -->
+  <path d="M400 500V300" stroke="#5c8d62" stroke-width="15" stroke-linecap="round" />
+  
+  <!-- Tech stack floating islands/platforms connected to tree -->
+  
+  <!-- Next.js island -->
+  <g transform="translate(350, 200) rotate(-5)">
+    <path d="M0 25C0 11.2 11.2 0 25 0H125C138.8 0 150 11.2 150 25V75C150 88.8 138.8 100 125 100H25C11.2 100 0 88.8 0 75V25Z" fill="#f0f9e8" filter="drop-shadow(0 4px 6px rgba(60, 100, 74, 0.1))" />
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3a644a">Next.js</text>
+    <path d="M25 55L40 40H30L15 55L30 70H40L25 55Z" fill="#3a644a" />
+    <path d="M60 40L45 70H55L70 40H60Z" fill="#3a644a" />
+    <path d="M400 300C370 250 350 270 320 230" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- React.js island -->
+  <g transform="translate(530, 180)">
+    <path d="M0 25C0 11.2 11.2 0 25 0H125C138.8 0 150 11.2 150 25V75C150 88.8 138.8 100 125 100H25C11.2 100 0 88.8 0 75V25Z" fill="#f0f9e8" filter="drop-shadow(0 4px 6px rgba(60, 100, 74, 0.1))" />
+    <text x="35" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3a644a">React.js</text>
+    <!-- React atom symbol -->
+    <ellipse cx="20" cy="50" rx="10" ry="3" transform="rotate(-30 20 50)" fill="none" stroke="#3a644a" stroke-width="1" />
+    <ellipse cx="20" cy="50" rx="10" ry="3" transform="rotate(30 20 50)" fill="none" stroke="#3a644a" stroke-width="1" />
+    <ellipse cx="20" cy="50" rx="10" ry="3" transform="rotate(90 20 50)" fill="none" stroke="#3a644a" stroke-width="1" />
+    <circle cx="20" cy="50" r="2" fill="#3a644a" />
+    <path d="M400 300C430 250 460 250 490 230" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Node.js island -->
+  <g transform="translate(139, 230)">
+    <path d="M0 25C0 11.2 11.2 0 25 0H125C138.8 0 150 11.2 150 25V75C150 88.8 138.8 100 125 100H25C11.2 100 0 88.8 0 75V25Z" fill="#f0f9e8" filter="drop-shadow(0 4px 6px rgba(60, 100, 74, 0.1))" />
+    <text x="39" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3a644a">Node.js</text>
+    <path d="M20 40L10 50L20 60L30 50L20 40Z" fill="#3a644a" />
+    <path d="M400 350C350 320 330 350 290 330" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Express.js island -->
+  <g transform="translate(330, 330) rotate(5)">
+    <path d="M0 25C0 11.2 11.2 0 25 0H125C138.8 0 150 11.2 150 25V75C150 88.8 138.8 100 125 100H25C11.2 100 0 88.8 0 75V25Z" fill="#f0f9e8" filter="drop-shadow(0 4px 6px rgba(60, 100, 74, 0.1))" />
+    <text x="30" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3a644a">Express.js</text>
+    <path d="M15 45H25L15 55H25" stroke="#3a644a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M400 380C390 370 405 360 395 350" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Python island -->
+  <g transform="translate(540, 320) rotate(-7)">
+    <path d="M0 25C0 11.2 11.2 0 25 0H125C138.8 0 150 11.2 150 25V75C150 88.8 138.8 100 125 100H25C11.2 100 0 88.8 0 75V25Z" fill="#f0f9e8" filter="drop-shadow(0 4px 6px rgba(60, 100, 74, 0.1))" />
+    <text x="45" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3a644a">Python</text>
+    <!-- Python snake symbol -->
+    <path d="M15 55C15 45 20 45 25 45C30 45 30 50 25 50C20 50 20 55 25 55C30 55 30 60 25 60C20 60 15 60 15 50Z" fill="#3a644a" />
+    <circle cx="17" cy="47" r="1" fill="#f0f9e8" />
+    <path d="M400 370C450 340 470 350 520 330" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Database platforms -->
+  <g transform="translate(250, 450)">
+    <path d="M0 25C0 11.2 11.2 0 25 0H245C258.8 0 270 11.2 270 25V75C270 88.8 258.8 100 245 100H25C11.2 100 0 88.8 0 75V25Z" fill="#f0f9e8" filter="drop-shadow(0 4px 6px rgba(60, 100, 74, 0.1))" />
+    <text x="60" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3a644a">Databases</text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="12" fill="#5c8d62">PostgreSQL • MongoDB • Redis</text>
+    
+    <!-- Database symbols -->
+    <g transform="translate(20, 20) scale(0.6)">
+      <path d="M0 10C0 4.5 9 0 20 0C31 0 40 4.5 40 10V25C40 30.5 31 35 20 35C9 35 0 30.5 0 25V10Z" fill="none" stroke="#3a644a" stroke-width="2" />
+      <path d="M0 10C0 15.5 9 20 20 20C31 20 40 15.5 40 10" fill="none" stroke="#3a644a" stroke-width="2" />
+    </g>
+    
+   
+    <g transform="translate(200, 50) scale(0.6)">
+      <rect x="0" y="0" width="20" height="25" rx="3" fill="none" stroke="#3a644a" stroke-width="2" />
+      <path d="M5 7H15M5 13H15M5 19H15" stroke="#3a644a" stroke-width="2" />
+    </g>
+    
+    <path d="M400 430C390 440 380 445 370 450" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Decorative Ghibli elements -->
+  
+  <!-- Floating dust particles -->
+  <circle cx="200" cy="150" r="2" fill="#6ea95f" opacity="0.6" />
+  <circle cx="220" cy="170" r="1.5" fill="#6ea95f" opacity="0.6" />
+  <circle cx="240" cy="140" r="2" fill="#6ea95f" opacity="0.6" />
+  <circle cx="550" cy="130" r="1.5" fill="#6ea95f" opacity="0.6" />
+  <circle cx="580" cy="150" r="2" fill="#6ea95f" opacity="0.6" />
+  <circle cx="600" cy="180" r="1.5" fill="#6ea95f" opacity="0.6" />
+  
+  <!-- Soft clouds -->
+  <path d="M100 100C100 88.954 108.954 80 120 80C131.046 80 140 88.954 140 100C140 111.046 131.046 120 120 120C108.954 120 100 111.046 100 100Z" fill="white" fill-opacity="0.7" />
+  <path d="M130 90C130 78.954 138.954 70 150 70C161.046 70 170 78.954 170 90C170 101.046 161.046 110 150 110C138.954 110 130 101.046 130 90Z" fill="white" fill-opacity="0.8" />
+  
+  <path d="M580 120C580 108.954 588.954 100 600 100C611.046 100 620 108.954 620 120C620 131.046 611.046 140 600 140C588.954 140 580 131.046 580 120Z" fill="white" fill-opacity="0.7" />
+  <path d="M610 110C610 98.954 618.954 90 630 90C641.046 90 650 98.954 650 110C650 121.046 641.046 130 630 130C618.954 130 610 121.046 610 110Z" fill="white" fill-opacity="0.8" />
+  
+  <!-- Leaf flourishes -->
+  <g transform="translate(700, 500) scale(0.8)">
+    <path d="M0 0C10 -20 30 -25 50 -5C30 0 20 10 0 0Z" fill="#8db580" opacity="0.7" />
+  </g>
+  
+  <g transform="translate(100, 520) scale(0.7)">
+    <path d="M0 0C10 -20 30 -25 50 -5C30 0 20 10 0 0Z" fill="#8db580" opacity="0.7" />
+  </g>
+  
+  <g transform="translate(300, 530) scale(0.9)">
+    <path d="M0 0C10 -20 30 -25 50 -5C30 0 20 10 0 0Z" fill="#8db580" opacity="0.7" />
+  </g>
+  
+  <!-- Glowing light source -->
+  <circle cx="400" cy="150" r="30" fill="white" opacity="0.3" filter="blur(20px)" />
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="400" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a8cee2" />
+      <stop offset="0.5" stop-color="#b9dcd8" />
+      <stop offset="1" stop-color="#dcedc2" />
+    </linearGradient>
+  </defs>
+</svg>

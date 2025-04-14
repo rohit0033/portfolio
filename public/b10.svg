@@ -1,0 +1,154 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ghibli dreamy gradient background -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="300" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8cee2" />
+      <stop offset="0.5" stop-color="#b9dcd8" />
+      <stop offset="1" stop-color="#dcedc2" />
+    </linearGradient>
+    
+    <radialGradient id="sun_glow" cx="150" cy="100" r="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8edd2" />
+      <stop offset="1" stop-color="#f8edd2" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="moon_glow" cx="450" cy="100" r="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    
+    <filter id="blur_filter" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#sky_gradient)" />
+  
+  <!-- Soft landscape dividing day and night -->
+  <path d="M0 250C40 230 80 260 120 240C160 220 200 250 240 230C280 210 320 240 360 220C400 200 440 230 480 210C520 190 560 220 600 200V400H0V250Z" fill="#8db580" fill-opacity="0.4" />
+  <path d="M0 300C50 280 100 300 150 280C200 260 250 280 300 260C350 240 400 260 450 240C500 220 550 240 600 220V400H0V300Z" fill="#a0c297" fill-opacity="0.6" />
+  <path d="M0 350C60 340 120 350 180 340C240 330 300 350 360 340C420 330 480 350 540 340V400H0V350Z" fill="#b7d4aa" fill-opacity="0.8" />
+  
+  <!-- Day/night division with glows -->
+  <circle cx="150" cy="100" r="60" fill="url(#sun_glow)" opacity="0.6" />
+  <circle cx="450" cy="100" r="60" fill="url(#moon_glow)" opacity="0.6" />
+  
+  <!-- Sun and moon -->
+  <circle cx="150" cy="100" r="30" fill="#f8edd2" />
+  <circle cx="450" cy="100" r="25" fill="#f0f9e8" />
+  
+  <!-- Stars around moon -->
+  <circle cx="400" cy="70" r="2" fill="white" />
+  <circle cx="480" cy="60" r="1.5" fill="white" />
+  <circle cx="520" cy="100" r="2" fill="white" />
+  <circle cx="450" cy="150" r="1.5" fill="white" />
+  <circle cx="500" cy="130" r="2" fill="white" />
+  
+  <!-- World map in center, slightly stylized -->
+  <g transform="translate(300, 230)">
+    <circle cx="0" cy="0" r="70" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+    
+    <!-- Simplified continents -->
+    <path d="M-40 -40C-30 -45 -20 -35 -10 -40C0 -45 10 -40 20 -35C30 -30 40 -40 50 -30C40 -20 30 -25 20 -15C10 -5 0 -10 -10 0C-20 10 -30 5 -40 15C-50 25 -40 35 -30 40C-20 45 -30 30 -20 25C-10 20 0 30 10 35C20 40 30 30 40 35C30 15 40 5 30 0C20 -5 30 -15 20 -25" fill="#a0c297" />
+    
+    <!-- Grid lines -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#5c8d62" stroke-width="0.5" stroke-dasharray="2 2" />
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#5c8d62" stroke-width="0.5" stroke-dasharray="2 2" />
+    <line x1="-70" y1="0" x2="70" y2="0" stroke="#5c8d62" stroke-width="0.5" stroke-dasharray="2 2" />
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="#5c8d62" stroke-width="0.5" stroke-dasharray="2 2" />
+  </g>
+  
+  <!-- Clock face with multiple hands for different timezones -->
+
+  
+  <!-- Ghibli character juggling clocks/watches -->
+  <g transform="translate(200, 240)">
+    <!-- Character -->
+    <ellipse cx="0" cy="10" rx="18" ry="25" fill="#f0f9e8" stroke="#3a644a" stroke-width="1" />
+    <circle cx="-6" cy="0" r="2.5" fill="#3a644a" />
+    <circle cx="6" cy="0" r="2.5" fill="#3a644a" />
+    <path d="M-5 7C-2 12 2 12 5 7" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    
+    <!-- Arms juggling -->
+    <path d="M-15 10C-25 0 -30 -10 -20 -15" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M15 10C25 0 30 -10 20 -15" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    
+    <!-- Mini clocks being juggled -->
+    <circle cx="-25" cy="-20" r="8" fill="#f8f8f0" stroke="#5c8d62" stroke-width="1" />
+    <line x1="-25" y1="-20" x2="-25" y2="-15" stroke="#5c8d62" stroke-width="1" />
+    <line x1="-25" y1="-20" x2="-21" y2="-20" stroke="#5c8d62" stroke-width="1" />
+    
+    <circle cx="0" cy="-30" r="8" fill="#f8f8f0" stroke="#5c8d62" stroke-width="1" />
+    <line x1="0" y1="-30" x2="0" y2="-25" stroke="#5c8d62" stroke-width="1" />
+    <line x1="0" y1="-30" x2="4" y2="-30" stroke="#5c8d62" stroke-width="1" />
+    
+    <circle cx="25" cy="-20" r="8" fill="#f8f8f0" stroke="#5c8d62" stroke-width="1" />
+    <line x1="25" y1="-20" x2="25" y2="-15" stroke="#5c8d62" stroke-width="1" />
+    <line x1="25" y1="-20" x2="29" y2="-20" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <!-- Second Ghibli character on communication device -->
+  <g transform="translate(400, 240)">
+    <!-- Character -->
+    <ellipse cx="0" cy="10" rx="18" ry="25" fill="#f0f9e8" stroke="#3a644a" stroke-width="1" />
+    <circle cx="-6" cy="0" r="2.5" fill="#3a644a" />
+    <circle cx="6" cy="0" r="2.5" fill="#3a644a" />
+    <path d="M-5 7C-2 12 2 12 5 7" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    
+    <!-- Arms holding communication device -->
+    <path d="M-15 10C-20 15 -15 25 -10 30" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M15 10C20 15 15 25 10 30" stroke="#3a644a" stroke-width="1.5" stroke-linecap="round" />
+    
+    <!-- Communication device with world symbol -->
+    <rect x="-15" y="30" width="30" height="20" rx="3" fill="#f8f8f0" stroke="#5c8d62" stroke-width="1" />
+    <circle cx="0" cy="40" r="7" fill="none" stroke="#5c8d62" stroke-width="1" />
+    <path d="M-5 40H5M0 35V45" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <!-- Animated communication lines between characters -->
+  <path d="M220 220C250 200 350 200 380 220" stroke="#6ea95f" stroke-width="1" stroke-dasharray="3 2" />
+  <path d="M220 240C250 260 350 260 380 240" stroke="#6ea95f" stroke-width="1" stroke-dasharray="3 2" />
+  
+  <!-- Connecting lines from globe to characters -->
+  <path d="M240 240C260 240 280 240 300 240" stroke="#5c8d62" stroke-width="0.5" stroke-dasharray="2 1" />
+  <path d="M360 240C340 240 320 240 300 240" stroke="#5c8d62" stroke-width="0.5" stroke-dasharray="2 1" />
+  
+  <!-- Soft clouds -->
+  <g opacity="0.8" filter="url(#blur_filter)">
+    <ellipse cx="100" cy="170" rx="40" ry="20" fill="white" opacity="0.6" />
+    <ellipse cx="80" cy="160" rx="30" ry="15" fill="white" opacity="0.7" />
+    <ellipse cx="120" cy="180" rx="35" ry="17" fill="white" opacity="0.7" />
+    
+    <ellipse cx="500" cy="190" rx="45" ry="25" fill="white" opacity="0.6" />
+    <ellipse cx="480" cy="180" rx="35" ry="20" fill="white" opacity="0.7" />
+    <ellipse cx="520" cy="200" rx="40" ry="22" fill="white" opacity="0.7" />
+  </g>
+  
+  <!-- Unique floating element - a small Ghibli-style creature carrying a tiny clock -->
+  <g transform="translate(100, 300)">
+    <ellipse cx="0" cy="0" rx="10" ry="15" fill="#f0f9e8" />
+    <circle cx="-3" cy="-5" r="1.5" fill="#3a644a" />
+    <circle cx="3" cy="-5" r="1.5" fill="#3a644a" />
+    <path d="M-3 2C-1 4 1 4 3 2" stroke="#3a644a" stroke-width="1" />
+    <path d="M0 15C-5 25 5 25 0 15" fill="#f0f9e8" stroke="#3a644a" stroke-width="1" />
+    <circle cx="0" cy="20" r="5" fill="#f8f8f0" stroke="#5c8d62" stroke-width="0.5" />
+    <line x1="0" y1="20" x2="0" y2="17" stroke="#5c8d62" stroke-width="0.5" />
+    <line x1="0" y1="20" x2="2" y2="20" stroke="#5c8d62" stroke-width="0.5" />
+  </g>
+  
+  <!-- Another unique element on the other side -->
+  <g transform="translate(500, 320)">
+    <ellipse cx="0" cy="0" rx="10" ry="15" fill="#f0f9e8" />
+    <circle cx="-3" cy="-5" r="1.5" fill="#3a644a" />
+    <circle cx="3" cy="-5" r="1.5" fill="#3a644a" />
+    <path d="M-3 2C-1 4 1 4 3 2" stroke="#3a644a" stroke-width="1" />
+    <path d="M0 15C-5 25 5 25 0 15" fill="#f0f9e8" stroke="#3a644a" stroke-width="1" />
+    <circle cx="0" cy="20" r="5" fill="#f8f8f0" stroke="#5c8d62" stroke-width="0.5" />
+    <line x1="0" y1="20" x2="0" y2="17" stroke="#5c8d62" stroke-width="0.5" />
+    <line x1="0" y1="20" x2="2" y2="20" stroke="#5c8d62" stroke-width="0.5" />
+  </g>
+  
+  <!-- Title text -->
+  <text x="300" y="380" font-family="sans-serif" font-size="16" font-weight="bold" fill="#3a644a" text-anchor="middle">I'm very flexible with time zone communications</text>
+</svg>

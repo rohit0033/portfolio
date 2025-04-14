@@ -1,0 +1,82 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <rect width="800" height="500" fill="url(#paint0_linear)" />
+  
+  <!-- Ghibli-style floating islands with tech elements -->
+  <path d="M150 300C250 270 350 320 450 280C550 240 650 290 750 260V450H50V310C80 300 110 310 150 300Z" fill="#8db580" fill-opacity="0.6" />
+  <path d="M100 350C200 330 300 370 400 340C500 310 600 360 700 330V450H100V350Z" fill="#a0c297" fill-opacity="0.7" />
+  <path d="M50 390C150 380 250 400 350 380C450 360 550 390 650 370V450H50V390Z" fill="#b7d4aa" fill-opacity="0.8" />
+  
+  <!-- Central workstation area with tech elements -->
+  <rect x="320" y="160" width="160" height="110" rx="5" fill="#f8f8f0" stroke="#5c8d62" stroke-width="2" />
+  <rect x="340" y="180" width="120" height="70" rx="2" fill="#3a644a" />
+  
+  <!-- Code on screen -->
+  <text x="350" y="200" font-family="monospace" font-size="8" fill="#a0c297">&lt;div className="ghibli"&gt;</text>
+  <text x="360" y="215" font-family="monospace" font-size="8" fill="#b7d4aa">  &lt;World /&gt;</text>
+  <text x="360" y="230" font-family="monospace" font-size="8" fill="#b7d4aa">  &lt;Dreams /&gt;</text>
+  <text x="350" y="245" font-family="monospace" font-size="8" fill="#a0c297">&lt;/div&gt;</text>
+  
+  <!-- Character (simplified Ghibli style) -->
+  <circle cx="250" cy="230" r="35" fill="#f8f8f0" stroke="#5c8d62" stroke-width="2" /> <!-- head -->
+  <ellipse cx="250" cy="350" rx="25" ry="55" fill="#6ea95f" /> <!-- body -->
+  <circle cx="240" cy="220" r="3" fill="#3a644a" /> <!-- eye -->
+  <circle cx="260" cy="220" r="3" fill="#3a644a" /> <!-- eye -->
+  <path d="M240 240C245 245 255 245 260 240" stroke="#3a644a" stroke-width="2" stroke-linecap="round" /> <!-- smile -->
+  
+  <!-- Floating tech elements -->
+  <g transform="translate(450, 210) rotate(-10)">
+    <rect x="0" y="0" width="50" height="50" rx="6" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+    <circle cx="25" cy="25" r="15" fill="#a0c297" />
+    <path d="M25 15V25M25 25H35" stroke="#f0f9e8" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <g transform="translate(540, 190) rotate(15)">
+    <rect x="0" y="0" width="40" height="40" rx="20" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+    <path d="M13 20L18 25L28 15" stroke="#6ea95f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  
+  <g transform="translate(150, 190) rotate(-5)">
+    <rect x="0" y="0" width="45" height="45" rx="8" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+    <circle cx="22.5" cy="22.5" r="12" fill="none" stroke="#8db580" stroke-width="3" />
+    <path d="M22.5 14.5V22.5L28.5 25.5" stroke="#8db580" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Magical glowing elements -->
+  <circle cx="400" cy="120" r="20" fill="white" opacity="0.6" filter="blur(10px)" />
+  <circle cx="200" cy="160" r="15" fill="white" opacity="0.4" filter="blur(8px)" />
+  <circle cx="600" cy="220" r="25" fill="white" opacity="0.5" filter="blur(12px)" />
+  
+  <!-- Small magical plants (Ghibli touch) -->
+  <g transform="translate(120, 270)">
+    <path d="M0 0C5 -10 10 -15 15 -10C20 -15 25 -10 30 0" stroke="#77a668" stroke-width="2" />
+    <path d="M15 -10V15" stroke="#77a668" stroke-width="2" />
+    <circle cx="15" cy="-15" r="5" fill="#b7d4aa" />
+  </g>
+  
+  <g transform="translate(650, 300)">
+    <path d="M0 0C5 -10 10 -15 15 -10C20 -15 25 -10 30 0" stroke="#77a668" stroke-width="2" />
+    <path d="M15 -10V15" stroke="#77a668" stroke-width="2" />
+    <circle cx="15" cy="-15" r="5" fill="#b7d4aa" />
+  </g>
+  
+  <!-- Floating particles (like in Ghibli films) -->
+  <circle cx="300" cy="100" r="2" fill="#6ea95f" opacity="0.6" />
+  <circle cx="320" cy="120" r="1.5" fill="#6ea95f" opacity="0.6" />
+  <circle cx="340" cy="90" r="2" fill="#6ea95f" opacity="0.6" />
+  <circle cx="450" cy="130" r="1.5" fill="#6ea95f" opacity="0.6" />
+  <circle cx="480" cy="110" r="2" fill="#6ea95f" opacity="0.6" />
+  <circle cx="500" cy="140" r="1.5" fill="#6ea95f" opacity="0.6" />
+  
+  <!-- Connecting paths (development flow) -->
+  <path d="M280 230C320 210 360 230 400 210" stroke="#6ea95f" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M400 210C440 190 480 210 520 190" stroke="#6ea95f" stroke-width="1.5" stroke-dasharray="4 2" />
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="400" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d9ecff" />
+      <stop offset="1" stop-color="#f0f9e8" />
+    </linearGradient>
+  </defs>
+</svg>

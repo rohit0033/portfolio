@@ -1,0 +1,34 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f8f0" />
+  
+  <!-- Tech grid pattern -->
+  <rect x="20" y="20" width="80" height="80" rx="8" fill="#a0c297" fill-opacity="0.3" />
+  <rect x="110" y="20" width="80" height="80" rx="8" fill="#b9dcd8" fill-opacity="0.4" />
+  <rect x="200" y="20" width="80" height="80" rx="8" fill="#8db580" fill-opacity="0.3" />
+  <rect x="290" y="20" width="80" height="80" rx="8" fill="#a0c297" fill-opacity="0.2" />
+  
+  <rect x="20" y="110" width="80" height="80" rx="8" fill="#b9dcd8" fill-opacity="0.3" />
+  <rect x="110" y="110" width="80" height="80" rx="8" fill="#8db580" fill-opacity="0.4" />
+  <rect x="200" y="110" width="80" height="80" rx="8" fill="#a0c297" fill-opacity="0.3" />
+  <rect x="290" y="110" width="80" height="80" rx="8" fill="#b9dcd8" fill-opacity="0.2" />
+  
+  <rect x="20" y="200" width="80" height="80" rx="8" fill="#8db580" fill-opacity="0.3" />
+  <rect x="110" y="200" width="80" height="80" rx="8" fill="#a0c297" fill-opacity="0.4" />
+  <rect x="200" y="200" width="80" height="80" rx="8" fill="#b9dcd8" fill-opacity="0.3" />
+  <rect x="290" y="200" width="80" height="80" rx="8" fill="#8db580" fill-opacity="0.2" />
+  
+  <rect x="20" y="290" width="80" height="80" rx="8" fill="#a0c297" fill-opacity="0.3" />
+  <rect x="110" y="290" width="80" height="80" rx="8" fill="#b9dcd8" fill-opacity="0.4" />
+  <rect x="200" y="290" width="80" height="80" rx="8" fill="#8db580" fill-opacity="0.3" />
+  <rect x="290" y="290" width="80" height="80" rx="8" fill="#a0c297" fill-opacity="0.2" />
+  
+  <!-- Connecting lines -->
+  <path d="M60 100V110M150 100V110M240 100V110M330 100V110" stroke="#6ea95f" stroke-opacity="0.5" stroke-width="2" />
+  <path d="M60 190V200M150 190V200M240 190V200M330 190V200" stroke="#6ea95f" stroke-opacity="0.5" stroke-width="2" />
+  <path d="M60 280V290M150 280V290M240 280V290M330 280V290" stroke="#6ea95f" stroke-opacity="0.5" stroke-width="2" />
+  
+  <path d="M100 60H110M100 150H110M100 240H110M100 330H110" stroke="#6ea95f" stroke-opacity="0.5" stroke-width="2" />
+  <path d="M190 60H200M190 150H200M190 240H200M190 330H200" stroke="#6ea95f" stroke-opacity="0.5" stroke-width="2" />
+  <path d="M280 60H290M280 150H290M280 240H290M280 330H290" stroke="#6ea95f" stroke-opacity="0.5" stroke-width="2" />
+</svg>

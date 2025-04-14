@@ -1,0 +1,168 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dreamy Ghibli sky gradient -->
+  <rect width="800" height="600" fill="url(#sky_gradient)" />
+  
+  <!-- Ghibli landscape - soft rolling hills -->
+  <path d="M0 400C100 350 200 380 300 350C400 320 500 380 600 350C700 320 800 350 800 350V600H0V400Z" fill="#8db580" fill-opacity="0.3" />
+  <path d="M0 450C100 420 200 440 300 420C400 400 500 440 600 420C700 400 800 420 800 420V600H0V450Z" fill="#a0c297" fill-opacity="0.4" />
+  <path d="M0 500C100 480 200 490 300 480C400 470 500 490 600 480C700 470 800 480 800 480V600H0V500Z" fill="#b7d4aa" fill-opacity="0.5" />
+  
+  <!-- Floating castle/workshop in the sky (AI Lab) -->
+  <g transform="translate(300, 150)">
+    <!-- Main structure -->
+    <path d="M0 100C0 55.8 35.8 20 80 20H120C164.2 20 200 55.8 200 100V200H0V100Z" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+    
+    <!-- Roof -->
+    <path d="M-20 100L100 30L220 100" fill="none" stroke="#5c8d62" stroke-width="3" />
+    
+    <!-- Windows with soft glow -->
+    <rect x="30" y="70" width="30" height="40" rx="15" fill="#f8f8d9" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.7))" />
+    <rect x="80" y="50" width="40" height="50" rx="10" fill="#f8f8d9" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.7))" />
+    <rect x="140" y="70" width="30" height="40" rx="15" fill="#f8f8d9" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.7))" />
+    
+    <!-- Door -->
+    <path d="M85 150H115V200H85V150Z" fill="#6ea95f" />
+    <circle cx="100" cy="175" r="5" fill="#3a644a" />
+  </g>
+  
+  <!-- AI Brain/Knowledge Hub -->
+  <g transform="translate(380, 100)">
+    <circle cx="0" cy="0" r="40" fill="url(#brain_gradient)" filter="drop-shadow(0 0 10px rgba(160, 194, 151, 0.5))" />
+    
+    <!-- Knowledge connections -->
+    <path d="M-25 -15L-15 -25M15 -25L25 -15M-25 15L-15 25M15 25L25 15" stroke="#f8f8f0" stroke-width="2" />
+    <path d="M-30 0H-20M20 0H30M0 -30V-20M0 20V30" stroke="#f8f8f0" stroke-width="2" />
+    
+    <!-- Central processor -->
+    <circle cx="0" cy="0" r="12" fill="#f8f8f0" />
+    <path d="M-5 -5L5 5M-5 5L5 -5" stroke="#3a644a" stroke-width="2" />
+  </g>
+  
+  <!-- AI Agents (Kodama/spirit inspired) -->
+  <g transform="translate(250, 300)">
+    <ellipse cx="0" cy="0" rx="20" ry="30" fill="#f0f9e8" />
+    <circle cx="-7" cy="-10" r="3" fill="#3a644a" />
+    <circle cx="7" cy="-10" r="3" fill="#3a644a" />
+    <path d="M-7 5C-3 10 3 10 7 5" stroke="#3a644a" stroke-width="1.5" />
+    <path d="M0 -30C-5 -35 -10 -32 -15 -35" stroke="#5c8d62" stroke-width="1.5" />
+    <path d="M0 -30C5 -35 10 -32 15 -35" stroke="#5c8d62" stroke-width="1.5" />
+    
+    <!-- Glowing connection to RAG system -->
+    <path d="M20 0C50 -30 100 -30 130 0" stroke="url(#agent_gradient)" stroke-width="2" stroke-dasharray="4 2" />
+  </g>
+  
+  <g transform="translate(500, 320)">
+    <ellipse cx="0" cy="0" rx="18" ry="28" fill="#f0f9e8" />
+    <circle cx="-6" cy="-10" r="3" fill="#3a644a" />
+    <circle cx="6" cy="-10" r="3" fill="#3a644a" />
+    <path d="M-6 5C-2 10 2 10 6 5" stroke="#3a644a" stroke-width="1.5" />
+    <path d="M0 -28C-5 -33 -8 -30 -12 -33" stroke="#5c8d62" stroke-width="1.5" />
+    <path d="M0 -28C5 -33 8 -30 12 -33" stroke="#5c8d62" stroke-width="1.5" />
+    
+    <!-- Glowing connection to RAG system -->
+    <path d="M-15 0C-45 -30 -95 -30 -125 0" stroke="url(#agent_gradient)" stroke-width="2" stroke-dasharray="4 2" />
+  </g>
+  
+  <!-- RAG (Retrieval Augmented Generation) as magical library -->
+  <g transform="translate(380, 280)">
+    <!-- Library structure -->
+    <rect x="-60" y="-30" width="120" height="100" rx="10" fill="#f8f8f0" stroke="#6ea95f" stroke-width="2" />
+    
+    <!-- Books/documents -->
+    <rect x="-50" y="-20" width="10" height="30" fill="#77a668" />
+    <rect x="-35" y="-20" width="10" height="30" fill="#8db580" />
+    <rect x="-20" y="-20" width="10" height="30" fill="#a0c297" />
+    <rect x="-5" y="-20" width="10" height="30" fill="#77a668" />
+    <rect x="10" y="-20" width="10" height="30" fill="#8db580" />
+    <rect x="25" y="-20" width="10" height="30" fill="#a0c297" />
+    <rect x="40" y="-20" width="10" height="30" fill="#77a668" />
+    
+    <rect x="-50" y="20" width="10" height="30" fill="#a0c297" />
+    <rect x="-35" y="20" width="10" height="30" fill="#77a668" />
+    <rect x="-20" y="20" width="10" height="30" fill="#8db580" />
+    <rect x="-5" y="20" width="10" height="30" fill="#a0c297" />
+    <rect x="10" y="20" width="10" height="30" fill="#77a668" />
+    <rect x="25" y="20" width="10" height="30" fill="#8db580" />
+    <rect x="40" y="20" width="10" height="30" fill="#a0c297" />
+    
+    <!-- Magical glow for knowledge -->
+    <rect x="-60" y="-30" width="120" height="100" rx="10" fill="url(#knowledge_glow)" opacity="0.3" />
+  </g>
+  
+  <!-- Magic flying document/data between RAG and AI -->
+  <g>
+    <path d="M380 180C390 200 400 220 380 240" stroke="#6ea95f" stroke-width="1" stroke-dasharray="4 2" />
+    <path d="M380 180C370 200 360 220 380 240" stroke="#6ea95f" stroke-width="1" stroke-dasharray="4 2" />
+    <rect x="370" y="210" width="20" height="25" rx="2" fill="#f8f8f0" opacity="0.9" transform="rotate(-10 370 210)" />
+  </g>
+  
+  <!-- Small kodama spirits (AI sub-agents) -->
+  <g transform="translate(200, 350) scale(0.5)">
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#f0f9e8" opacity="0.9" />
+    <circle cx="-5" cy="-8" r="2" fill="#3a644a" />
+    <circle cx="5" cy="-8" r="2" fill="#3a644a" />
+    <path d="M-4 4C-2 7 2 7 4 4" stroke="#3a644a" stroke-width="1" />
+    <path d="M0 -25C-3 -28 -7 -26 -10 -28" stroke="#5c8d62" stroke-width="1" />
+    <path d="M0 -25C3 -28 7 -26 10 -28" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(550, 370) scale(0.5)">
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#f0f9e8" opacity="0.9" />
+    <circle cx="-5" cy="-8" r="2" fill="#3a644a" />
+    <circle cx="5" cy="-8" r="2" fill="#3a644a" />
+    <path d="M-4 4C-2 7 2 7 4 4" stroke="#3a644a" stroke-width="1" />
+    <path d="M0 -25C-3 -28 -7 -26 -10 -28" stroke="#5c8d62" stroke-width="1" />
+    <path d="M0 -25C3 -28 7 -26 10 -28" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <!-- Floating clouds -->
+  <g opacity="0.8">
+    <path d="M120 150C120 138.954 128.954 130 140 130C151.046 130 160 138.954 160 150C160 161.046 151.046 170 140 170C128.954 170 120 161.046 120 150Z" fill="white" fill-opacity="0.7" />
+    <path d="M140 140C140 128.954 148.954 120 160 120C171.046 120 180 128.954 180 140C180 151.046 171.046 160 160 160C148.954 160 140 151.046 140 140Z" fill="white" fill-opacity="0.8" />
+    
+    <path d="M620 180C620 168.954 628.954 160 640 160C651.046 160 660 168.954 660 180C660 191.046 651.046 200 640 200C628.954 200 620 191.046 620 180Z" fill="white" fill-opacity="0.7" />
+    <path d="M640 170C640 158.954 648.954 150 660 150C671.046 150 680 158.954 680 170C680 181.046 671.046 190 660 190C648.954 190 640 181.046 640 170Z" fill="white" fill-opacity="0.8" />
+  </g>
+  
+  <!-- Magical dust particles (kodama style) -->
+  <g opacity="0.7">
+    <circle cx="300" cy="120" r="2" fill="#f8f8d9" />
+    <circle cx="320" cy="150" r="1.5" fill="#f8f8d9" />
+    <circle cx="350" cy="130" r="2" fill="#f8f8d9" />
+    <circle cx="380" cy="160" r="1.5" fill="#f8f8d9" />
+    <circle cx="410" cy="140" r="2" fill="#f8f8d9" />
+    <circle cx="440" cy="170" r="1.5" fill="#f8f8d9" />
+    <circle cx="470" cy="150" r="2" fill="#f8f8d9" />
+    <circle cx="500" cy="180" r="1.5" fill="#f8f8d9" />
+  </g>
+  
+  <!-- Title text with subtle glow -->
+  <!-- <g transform="translate(400, 450)" opacity="0.9">
+    <text x="-170" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#3a644a" text-anchor="middle" filter="drop-shadow(0 0 2px rgba(240, 249, 232, 0.8))">Currently Building AI Agents and RAG</text>
+    <text x="-170" y="30" font-family="Arial, sans-serif" font-size="16" fill="#5c8d62" text-anchor="middle">The Inside Scoop</text>
+  </g> -->
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="400" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8cee2" />
+      <stop offset="0.5" stop-color="#b9dcd8" />
+      <stop offset="1" stop-color="#dcedc2" />
+    </linearGradient>
+    
+    <radialGradient id="brain_gradient" cx="0" cy="0" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a0c297" />
+      <stop offset="1" stop-color="#6ea95f" />
+    </radialGradient>
+    
+    <linearGradient id="agent_gradient" x1="20" y1="0" x2="130" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8f8d9" />
+      <stop offset="1" stop-color="#f8f8d9" stop-opacity="0" />
+    </linearGradient>
+    
+    <radialGradient id="knowledge_glow" cx="0" cy="20" r="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8f8d9" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#f8f8d9" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>

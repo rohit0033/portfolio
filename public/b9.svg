@@ -1,0 +1,136 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dreamy Ghibli sky background -->
+  <rect width="800" height="600" fill="url(#sky_gradient)" />
+  
+  <!-- Ghibli-style rolling hills -->
+  <path d="M0 400C100 350 200 380 300 350C400 320 500 380 600 350C700 320 800 350 800 350V600H0V400Z" fill="#8db580" fill-opacity="0.4" />
+  <path d="M0 450C100 420 200 440 300 420C400 400 500 440 600 420C700 400 800 420 800 420V600H0V450Z" fill="#a0c297" fill-opacity="0.5" />
+  <path d="M0 500C100 480 200 490 300 480C400 470 500 490 600 480C700 470 800 480 800 480V600H0V500Z" fill="#b7d4aa" fill-opacity="0.6" />
+  
+  <!-- Seed/sapling of a project -->
+  <g transform="translate(400, 350)">
+    <!-- Seed/root -->
+    <ellipse cx="0" cy="20" rx="20" ry="10" fill="#6ea95f" />
+    
+    <!-- Small sprouting plant -->
+    <path d="M0 20C0 10 0 0 0 -10" stroke="#5c8d62" stroke-width="4" stroke-linecap="round" />
+    <path d="M0 -10C-15 -25 -20 -40 -15 -45" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+    <path d="M0 -10C15 -25 20 -40 15 -45" stroke="#5c8d62" stroke-width="3" stroke-linecap="round" />
+    <path d="M-15 -45C-20 -50 -15 -55 -10 -52" stroke="#5c8d62" stroke-width="2" stroke-linecap="round" />
+    <path d="M15 -45C20 -50 15 -55 10 -52" stroke="#5c8d62" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Small leaves -->
+    <path d="M-15 -45C-25 -48 -27 -40 -17 -37" fill="#8db580" stroke="#5c8d62" stroke-width="1" />
+    <path d="M15 -45C25 -48 27 -40 17 -37" fill="#8db580" stroke="#5c8d62" stroke-width="1" />
+    <path d="M-10 -20C-20 -23 -22 -15 -12 -12" fill="#a0c297" stroke="#5c8d62" stroke-width="1" />
+    <path d="M10 -20C20 -23 22 -15 12 -12" fill="#a0c297" stroke="#5c8d62" stroke-width="1" />
+  </g>
+  
+  <!-- Two Ghibli characters tending to the plant (collaboration) -->
+  <g transform="translate(320, 350)">
+    <!-- First character -->
+    <ellipse cx="0" cy="0" rx="25" ry="35" fill="#f0f9e8" />
+    <circle cx="-8" cy="-15" r="3" fill="#3a644a" />
+    <circle cx="8" cy="-15" r="3" fill="#3a644a" />
+    <path d="M-8 0C-4 5 4 5 8 0" stroke="#3a644a" stroke-width="1.5" />
+    
+    <!-- Arms reaching toward plant -->
+    <path d="M25 -10C40 -15 50 -5 60 0" stroke="#3a644a" stroke-width="2" stroke-linecap="round" />
+    <path d="M15 15C25 20 35 15 45 10" stroke="#3a644a" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <g transform="translate(480, 350)">
+    <!-- Second character -->
+    <ellipse cx="0" cy="0" rx="25" ry="35" fill="#f0f9e8" />
+    <circle cx="-8" cy="-15" r="3" fill="#3a644a" />
+    <circle cx="8" cy="-15" r="3" fill="#3a644a" />
+    <path d="M-8 0C-4 5 4 5 8 0" stroke="#3a644a" stroke-width="1.5" />
+    
+    <!-- Arms reaching toward plant -->
+    <path d="M-25 -10C-40 -15 -50 -5 -60 0" stroke="#3a644a" stroke-width="2" stroke-linecap="round" />
+    <path d="M-15 15C-25 20 -35 15 -45 10" stroke="#3a644a" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Floating castle in the distance (representing the project's potential) -->
+  <g transform="translate(400, 150)">
+    <!-- Castle main structure -->
+    <rect x="-80" y="-60" width="160" height="100" rx="10" fill="#f8f8f0" stroke="#5c8d62" stroke-width="2" />
+    
+    <!-- Castle towers -->
+    <rect x="-90" y="-80" width="30" height="40" rx="5" fill="#f8f8f0" stroke="#5c8d62" stroke-width="2" />
+    <path d="M-75 -90L-65 -80" stroke="#5c8d62" stroke-width="2" />
+    <rect x="60" y="-80" width="30" height="40" rx="5" fill="#f8f8f0" stroke="#5c8d62" stroke-width="2" />
+    <path d="M75 -90L65 -80" stroke="#5c8d62" stroke-width="2" />
+    
+    <!-- Castle windows -->
+    <rect x="-60" y="-40" width="20" height="30" rx="10" fill="#f8f8d9" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.5))" />
+    <rect x="-20" y="-40" width="20" height="30" rx="10" fill="#f8f8d9" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.5))" />
+    <rect x="20" y="-40" width="20" height="30" rx="10" fill="#f8f8d9" filter="drop-shadow(0 0 5px rgba(248, 248, 217, 0.5))" />
+    
+    <!-- Small flags -->
+    <path d="M-75 -90V-110" stroke="#5c8d62" stroke-width="1" />
+    <path d="M-75 -110L-60 -105L-75 -100" fill="#a0c297" stroke="#5c8d62" stroke-width="1" />
+    <path d="M75 -90V-110" stroke="#5c8d62" stroke-width="1" />
+    <path d="M75 -110L90 -105L75 -100" fill="#a0c297" stroke="#5c8d62" stroke-width="1" />
+    
+    <!-- Soft glow underneath (floating effect) -->
+    <ellipse cx="0" cy="45" rx="120" ry="15" fill="white" opacity="0.2" filter="blur(10px)" />
+  </g>
+  
+  <!-- Path connecting characters to the castle (journey) -->
+  <path d="M390 310C380 260 370 220 390 180M410 310C420 260 430 220 410 180" stroke="#6ea95f" stroke-width="1" stroke-dasharray="6 4" opacity="0.7" />
+  
+  <!-- Magical dust particles -->
+  <g opacity="0.8">
+    <circle cx="350" cy="280" r="2" fill="#f8f8d9" />
+    <circle cx="370" cy="260" r="1.5" fill="#f8f8d9" />
+    <circle cx="390" cy="240" r="2" fill="#f8f8d9" />
+    <circle cx="410" cy="260" r="1.5" fill="#f8f8d9" />
+    <circle cx="430" cy="280" r="2" fill="#f8f8d9" />
+    <circle cx="450" cy="260" r="1.5" fill="#f8f8d9" />
+  </g>
+  
+  <!-- Floating clouds in Ghibli style -->
+  <g opacity="0.9">
+    <ellipse cx="200" cy="150" rx="60" ry="30" fill="white" opacity="0.7" />
+    <ellipse cx="230" cy="130" rx="40" ry="25" fill="white" opacity="0.8" />
+    <ellipse cx="170" cy="160" rx="35" ry="20" fill="white" opacity="0.8" />
+    
+    <ellipse cx="600" cy="180" rx="70" ry="35" fill="white" opacity="0.7" />
+    <ellipse cx="630" cy="165" rx="45" ry="25" fill="white" opacity="0.8" />
+    <ellipse cx="570" cy="190" rx="40" ry="20" fill="white" opacity="0.8" />
+  </g>
+  
+  <!-- Birds in the distance -->
+  <path d="M280 100C285 95 290 100 295 95C300 100 305 95 310 100" stroke="#5c8d62" stroke-width="1.5" fill="none" />
+  <path d="M500 120C505 115 510 120 515 115C520 120 525 115 530 120" stroke="#5c8d62" stroke-width="1.5" fill="none" />
+  <path d="M350 80C355 75 360 80 365 75C370 80 375 75 380 80" stroke="#5c8d62" stroke-width="1.5" fill="none" />
+  
+  <!-- Sun with gentle rays -->
+  <g transform="translate(700, 100)">
+    <circle cx="0" cy="0" r="30" fill="#f8edd2" filter="drop-shadow(0 0 10px rgba(248, 237, 210, 0.5))" />
+    <path d="M0 -40V-50" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M0 40V50" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M-40 0H-50" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M40 0H50" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M-28 -28L-35 -35" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M28 28L35 35" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M-28 28L-35 35" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+    <path d="M28 -28L35 -35" stroke="#f8edd2" stroke-width="1" opacity="0.6" />
+  </g>
+  
+  <!-- Text - styled as a banner -->
+  <g transform="translate(400, 500)">
+    <rect x="-200" y="-25" width="400" height="50" rx="25" fill="#f0f9e8" stroke="#5c8d62" stroke-width="2" />
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3a644a" text-anchor="middle">Do you want to start a project together?</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="400" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a8cee2" />
+      <stop offset="0.5" stop-color="#b9dcd8" />
+      <stop offset="1" stop-color="#dcedc2" />
+    </linearGradient>
+  </defs>
+</svg>
