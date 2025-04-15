@@ -20,7 +20,9 @@ export default function Home() {
        <section id="projects">
          <RecentProjects />
        </section>
+       <section id="experience">
        <Experience />
+        </section>
        <section id="contact" className="mt-auto">
          <Footer />
        </section>
