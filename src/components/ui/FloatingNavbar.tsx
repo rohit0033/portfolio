@@ -61,7 +61,7 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit md:min-w-[50vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-6 py-3 rounded-full items-center justify-center space-x-6",
+          "flex w-[95%] max-w-fit md:min-w-[50vw] lg:min-w-fit fixed z-[5000] top-10 inset-x-0 mx-auto px-3 sm:px-6 py-2 sm:py-3 rounded-full items-center justify-center space-x-3 sm:space-x-6",
           className
         )}
         style={{
@@ -75,16 +75,16 @@ export const FloatingNav = ({
           <Link
             key={`link-${idx}`}
             href={navItem.link}
-            className="relative text-green-900 dark:text-lime-100 items-center flex space-x-1 hover:text-lime-900 dark:hover:text-lime-900 group"
+            className="relative text-green-900 dark:text-lime-100 items-center flex hover:text-lime-900 dark:hover:text-lime-900 group whitespace-nowrap"
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="text-sm font-[var(--font-nunito)] !cursor-pointer">{navItem.name}</span>
+            <span className="text-xs sm:text-sm font-[var(--font-nunito)] !cursor-pointer">{navItem.name}</span>
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-lime-900 dark:bg-lime-900 transition-all duration-300 group-hover:w-full"></span>
           </Link>
         ))}
         <a
           href="#contact"
-          className="relative overflow-hidden px-4 py-1.5 rounded-full bg-lime-600 text-white text-sm transition-all duration-300 hover:bg-green-700 active:scale-95 shadow-md group font-[var(--font-nunito)]"
+          className="relative overflow-hidden px-2 sm:px-4 py-1 sm:py-1.5 rounded-full bg-lime-600 text-white text-xs sm:text-sm transition-all duration-300 hover:bg-green-700 active:scale-95 shadow-md group font-[var(--font-nunito)] whitespace-nowrap"
         >
           <span className="relative z-10">Say Hello</span>
           <span className="absolute inset-0 w-full h-full bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
