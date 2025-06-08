@@ -78,7 +78,7 @@ export const navItems = [
       des: "Create your own personality  with Ai Person. Customize your character's personality traits through conversations.",
       img: "/aiperson.png",
       iconLists: ["/next.svg", "/openai.svg", "/ts.svg", "/redis.svg", "/postgresql.svg"],
-      link: "/https://personai.rohitsharma.tech",
+      link: "/https://person-ai-mu.vercel.app/",
       code: "/https://github.com/rohit0033/person-ai"
     },
     {
@@ -88,7 +88,7 @@ export const navItems = [
       img: "/tube-agent.png",
       iconLists: ["/next.svg", "/clerk.avif", "/ts.svg", "/convex.webp","/stripe.svg", "/openai.svg"],
       link: "/https:/agenttube.rohitsharma.tech/",
-      code:"https://github.com/rohit0033/agent-tube"
+      code:"/https://github.com/rohit0033/agent-tube"
     },
     {
       id: 3,
